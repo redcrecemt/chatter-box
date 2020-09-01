@@ -3,3 +3,17 @@
     padding:5px;
     width:fit-content;
 }
+
+.message__user{
+    text-align: left !important;
+    margin-left: auto;;
+    color:rgb(255 255 255 / 87%) !important;
+}
+
+.message__userCard{
+    background-color: #0b81ff !important;
+}
+
+.message__guestCard{
+    background-color: #e9e9eb !important;
+}
