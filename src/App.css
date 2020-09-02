@@ -3,12 +3,16 @@
 }
 
 .app__form{
-  position: fixed;
+  /* position: fixed;
   bottom:0;
-  z-index: 1;
-  padding-bottom: 5px;
+  z-index: 1; */
+  /* padding-bottom: 5px; */
   width: 100%;
-  background-color: transparent;;
+  /* background-color: transparent;; */
+}
+
+.input__form{
+  width: 100% !important;
 }
 
 .app__formControl
@@ -17,6 +21,20 @@
   flex-direction: row !important;
 }
 
+.card__hidden{
+  display: none;
+}
+
+.card__login{
+  margin-top: 10%;
+  display: flex;
+  width: 40%;
+  margin-left: 30%;}
+.login_hidden
+{
+  display: hidden;
+  flex-direction: row;
+}
 .app__input
 {
 flex:1;
